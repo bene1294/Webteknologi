@@ -1,0 +1,91 @@
+body {
+    background-color:rgba(221, 221, 221, 0.812);
+}
+h1{
+    color:rgb(12, 59, 121);
+    text-align: center; 
+    font-size: 130px;
+    font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin: 10px;
+   margin-bottom: 2px;
+}
+.intro{
+    background-color: cadetblue;
+    padding: 30px;
+    border-radius: 10px;
+    font-family:'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: left;
+    margin: 25px;
+    margin-top: 0px;
+  
+}
+.links {
+    display: flex; /* Brug flexbox for at arrangere felterne i en række */
+    flex-wrap: wrap; /* Sørg for at felterne kan brydes til næste linje */
+    justify-content: space-between; /* Fordel pladsen mellem felterne */
+    margin-top: 10px; /* Margin over links sektionen */
+    font-size: 40px;
+    padding: 10px;
+}
+
+/* Generelle indstillinger for .link-box */
+.link-box {
+    background-color: lightsteelblue; /* Standard baggrundsfarve */
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(12, 59, 121); /* Tekstfarve */
+    padding: 20px; /* Indvendig afstand */
+    position: absolute;
+    bottom: 0;
+    margin: 10px; /* Margin mellem felterne */
+    flex: 1 1 30%; /* Flex-effekt for at få felterne til at fylde pladsen */
+    height: 200px;
+    text-align: center; /* Centrer tekst */
+    border-radius: 10px; /* Runde hjørner */
+    text-decoration: none; /* Fjern understregning */
+    transition: background-color, color, 0.3s; /* Overgangseffekt på hover */
+    position: relative; /* Sørger for, at billederne bliver behandlet korrekt */
+    border: 10px solid lightsteelblue; /* Ramme omkring boksen */
+    background-position:center; /* Centrer billedet */
+    background-size: 80%; /* Sørg for, at billedet dækker hele boksen */
+    background-repeat: no-repeat; /* sørger for at billedet ikke gentages selvom at det ikke fylder hele boksen*/
+}
+
+/* Unik baggrund for .box1 */
+.link-box.box1 {
+    background-image: url('Billeder/Praktisk.jpg'); /* Baggrundsbillede for box1 */
+}
+
+
+/* Unik baggrund for .box2 */
+.link-box.box2 {
+    background-image: url('Billeder/Lokal\ mad.jpg'); /* Baggrundsbillede for box2 */
+}
+
+/* Unik baggrund for .box3 */
+.link-box.box3 {
+    background-image: url('images/image3.jpg'); /* Baggrundsbillede for box3 */
+}
+
+/* Unik baggrund for .box4 */
+.link-box.box4 {
+    background-image: url('images/image3.jpg'); /* Baggrundsbillede for box3 */
+}
+
+/* Unik baggrund for .box5 */
+.link-box.box5 {
+    background-image: url('images/image3.jpg'); /* Baggrundsbillede for box3 */
+}
+
+/* Unik baggrund for .box6 */
+.link-box.box6 {
+    background-image: url('Billeder/Arkitektur.jpeg'); /* Baggrundsbillede for box3 */
+}
+
+/* Hover-effekt */
+.link-box:hover {
+    background-color: hsl(42, 45%, 76%); /* Mørkere farve ved hover */
+    color: rgb(164, 82, 24);
+    
+    border: 5px solid hsl(42, 45%, 76%); /* Rammefarve ændres ved hover */
+}

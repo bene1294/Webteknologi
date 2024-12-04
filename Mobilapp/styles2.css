@@ -33,8 +33,8 @@ h1{
 .link-box {
     background-color: lightsteelblue; /* Standard baggrundsfarve */
     font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(12, 59, 121); /* Tekstfarve */
-    padding: 20px; /* Indvendig afstand */
+    color: rgb(0, 0, 0); /* Tekstfarve */
+    padding: 40px; /* Indvendig afstand */
     position: absolute;
     bottom: 0;
     margin: 10px; /* Margin mellem felterne */
@@ -47,7 +47,7 @@ h1{
     position: relative; /* Sørger for, at billederne bliver behandlet korrekt */
     border: 10px solid lightsteelblue; /* Ramme omkring boksen */
     background-position:center; /* Centrer billedet */
-    background-size: 80%; /* Sørg for, at billedet dækker hele boksen */
+    background-size: 100%; /* Sørg for, at billedet dækker hele boksen */
     background-repeat: no-repeat; /* sørger for at billedet ikke gentages selvom at det ikke fylder hele boksen*/
 }
 
@@ -64,28 +64,28 @@ h1{
 
 /* Unik baggrund for .box3 */
 .link-box.box3 {
-    background-image: url('images/image3.jpg'); /* Baggrundsbillede for box3 */
+    background-image: url('Billeder/Marion_MA_Tabor_Academy.jpg'); /* Baggrundsbillede for box3 */
 }
 
 /* Unik baggrund for .box4 */
 .link-box.box4 {
-    background-image: url('images/image3.jpg'); /* Baggrundsbillede for box3 */
+    background-image: url('Billeder/Boston.webp'); /* Baggrundsbillede for box4 */
 }
 
 /* Unik baggrund for .box5 */
 .link-box.box5 {
-    background-image: url('images/image3.jpg'); /* Baggrundsbillede for box3 */
+    background-image: url('Billeder/sport2.jpg'); /* Baggrundsbillede for box5 */
 }
 
 /* Unik baggrund for .box6 */
 .link-box.box6 {
-    background-image: url('Billeder/Arkitektur.jpeg'); /* Baggrundsbillede for box3 */
+    background-image: url('Billeder/Arkitektur.jpeg'); /* Baggrundsbillede for box6 */
 }
 
 /* Hover-effekt */
 .link-box:hover {
     background-color: hsl(42, 45%, 76%); /* Mørkere farve ved hover */
-    color: rgb(164, 82, 24);
+    color: rgb(249, 248, 248);
     
     border: 5px solid hsl(42, 45%, 76%); /* Rammefarve ændres ved hover */
 }
